@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330" role="img" aria-labelledby="title description">
+  <title id="title">Jatin Tehalram Ahuja</title>
+  <desc id="description">Computer Science Engineering student at Parul University, expected graduation 2028. Focused on Java, backend development, full-stack projects, and data structures and algorithms.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#111a2e"/>
+      <stop offset="1" stop-color="#101321"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#18243a" stop-opacity=".94"/>
+      <stop offset="1" stop-color="#111827" stop-opacity=".96"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="32"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="330" rx="24" fill="url(#background)"/>
+  <circle cx="1060" cy="46" r="116" fill="#7c3aed" opacity=".18" filter="url(#glow)"/>
+  <circle cx="1010" cy="292" r="110" fill="#0ea5e9" opacity=".16" filter="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="328" rx="23" fill="none" stroke="#344155"/>
+
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="54" y="48" width="8" height="145" rx="4" fill="url(#accent)"/>
+    <text x="88" y="76" fill="#93c5fd" font-size="15" font-weight="700" letter-spacing="3">COMPUTER SCIENCE ENGINEERING STUDENT</text>
+    <text x="84" y="133" fill="#f8fafc" font-size="46" font-weight="700">Jatin Tehalram Ahuja</text>
+    <text x="88" y="169" fill="#bac7d8" font-size="21">Parul University  ·  Expected Graduation: 2028</text>
+    <text x="88" y="212" fill="#d7e2f0" font-size="17">Building practical software with Java, Spring Boot, React &amp; TypeScript.</text>
+
+    <rect x="852" y="55" width="292" height="220" rx="18" fill="url(#panel)" stroke="#35445b"/>
+    <text x="880" y="88" fill="#93c5fd" font-size="13" font-weight="700" letter-spacing="2">FOCUS AREAS</text>
+    <line x1="880" y1="105" x2="1116" y2="105" stroke="#344155"/>
+
+    <circle cx="888" cy="135" r="4" fill="#38bdf8"/>
+    <text x="903" y="141" fill="#e5edf7" font-size="16">Java backend</text>
+    <circle cx="888" cy="171" r="4" fill="#a78bfa"/>
+    <text x="903" y="177" fill="#e5edf7" font-size="16">Full-stack projects</text>
+    <circle cx="888" cy="207" r="4" fill="#34d399"/>
+    <text x="903" y="213" fill="#e5edf7" font-size="16">DSA &amp; problem solving</text>
+
+    <rect x="880" y="236" width="70" height="24" rx="12" fill="#172b42" stroke="#26506e"/>
+    <text x="915" y="253" text-anchor="middle" fill="#bae6fd" font-size="12" font-weight="700">JAVA</text>
+    <rect x="959" y="236" width="87" height="24" rx="12" fill="#241d3f" stroke="#54417e"/>
+    <text x="1002" y="253" text-anchor="middle" fill="#ddd6fe" font-size="12" font-weight="700">SPRING</text>
+    <rect x="1055" y="236" width="61" height="24" rx="12" fill="#15343a" stroke="#28626a"/>
+    <text x="1085" y="253" text-anchor="middle" fill="#a5f3fc" font-size="12" font-weight="700">REACT</text>
+
+    <text x="88" y="288" fill="#7f91a8" font-size="13" letter-spacing="1">LEARN  ·  BUILD  ·  ITERATE</text>
+  </g>
+</svg>
