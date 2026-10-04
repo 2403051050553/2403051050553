@@ -1,53 +1,67 @@
 <h1 align="center">Jatin Tehalram Ahuja</h1>
 
 <p align="center">
-  <strong>Software Engineer | Java, Spring Boot, React & TypeScript</strong><br />
-  Computer Science Engineering · Parul University
+  <strong>CSE '27 · Software Engineering · Java, Spring Boot, React & TypeScript</strong>
 </p>
 
 <p align="center">
   <a href="https://jatin-portfolio-eight-psi.vercel.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/jatin-tehalram-ahuja-0386b5390/">LinkedIn</a> ·
-  <a href="mailto:2403051050553@paruluniversity.ac.in">Email</a>
+  <a href="mailto:2403051050553@paruluniversity.ac.in">Email</a> ·
+  <a href="https://leetcode.com/u/2403051050553/">LeetCode</a>
 </p>
 
 ## About
 
-I build web applications across the frontend and backend, with a focus on Java, Spring Boot, React, TypeScript, and relational databases. I enjoy turning practical problems into clear, maintainable software and continue to strengthen my foundations in data structures and algorithms.
+I am a Computer Science Engineering student at Parul University, graduating in
+2027. I build web applications with Java/Spring Boot and React/TypeScript, and
+focus on clear APIs, maintainable code, and practical testing.
 
-I’m open to software engineering opportunities, collaboration, and thoughtful feedback.
+I am interested in software engineering internships and early-career
+opportunities. For recruiter or project inquiries, please
+[email me](mailto:2403051050553@paruluniversity.ac.in) or connect on
+[LinkedIn](https://www.linkedin.com/in/jatin-tehalram-ahuja-0386b5390/).
+
+## Selected work
+
+### [Student Grade Management API](https://github.com/2403051050553/student-grade-management)
+
+Java 17 and Spring Boot REST API for student and grade management.
+
+- Student and grade CRUD, request validation, JWT-based login, and JPA persistence
+- MySQL and Swagger/OpenAPI integration
+- Maven test/build workflow runs in GitHub Actions
+
+### [Personal Portfolio](https://github.com/2403051050553/jatin-portfolio)
+
+Responsive React and TypeScript portfolio with project, education, and contact
+sections.
+
+- [View the live portfolio](https://jatin-portfolio-eight-psi.vercel.app)
+- TypeScript build, lint checks, and GitHub Actions CI
+
+### [Java DSA Practice](https://github.com/2403051050553/LeetCode-Solutions)
+
+Java 17/Maven repository with JUnit tests and GitHub Actions CI.
+
+- Includes 60 clearly labelled practice/reference examples across common interview patterns
+- [One public LeetCode solution](https://github.com/2403051050553/LeetCode-Solutions#public-leetcode-solution) is separately linked to its source post
+- The practice examples are study references, not claims about my past accepted submissions
 
 ## Technical focus
 
 - **Languages:** Java, TypeScript, JavaScript, Python
+- **Backend:** Spring Boot, REST APIs, Spring Data JPA, Spring Security
 - **Frontend:** React, HTML, CSS, Tailwind CSS
-- **Backend:** Spring Boot, REST APIs, Spring Data JPA
 - **Data:** MySQL
-- **Tools:** Git, GitHub, Vite, Vercel
-
-## Selected projects
-
-### [Jatin Portfolio](https://github.com/2403051050553/jatin-portfolio)
-
-My personal portfolio for presenting projects and engineering interests.
-
-- **Stack:** React, TypeScript, Vite, and Tailwind CSS
-- **Live site:** [jatin-portfolio-eight-psi.vercel.app](https://jatin-portfolio-eight-psi.vercel.app)
-
-### [Student Grade Management](https://github.com/2403051050553/student-grade-management)
-
-A student grade management project with a Java backend.
-
-- **Stack declared in the project:** Java 17, Spring Boot, Spring Data JPA, Spring Security, JWT, and MySQL
-- The repository currently documents the backend; see its source and README for implementation details.
+- **Tools:** Git, GitHub Actions, Maven, Vite, Vercel
 
 ## Education
 
-**Computer Science Engineering** · Parul University
+**Computer Science Engineering** · Parul University · 2027
 
-## Connect
+## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/jatin-tehalram-ahuja-0386b5390/)
-- [GitHub repositories](https://github.com/2403051050553?tab=repositories)
-- [LeetCode](https://leetcode.com/u/2403051050553/)
-- [Email](mailto:2403051050553@paruluniversity.ac.in)
+- **Email:** [2403051050553@paruluniversity.ac.in](mailto:2403051050553@paruluniversity.ac.in)
+- **LinkedIn:** [jatin-tehalram-ahuja](https://www.linkedin.com/in/jatin-tehalram-ahuja-0386b5390/)
+- **Portfolio:** [jatin-portfolio-eight-psi.vercel.app](https://jatin-portfolio-eight-psi.vercel.app)
