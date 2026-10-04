@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://jatin-ahuja-portfolio.vercel.app">Portfolio</a> ·
+  <a href="https://jatin-portfolio-eight-psi.vercel.app">Portfolio</a> ·
   <a href="https://www.linkedin.com/in/jatin-tehalram-ahuja-0386b5390/">LinkedIn</a> ·
   <a href="mailto:2403051050553@paruluniversity.ac.in">Email</a>
 </p>
@@ -32,7 +32,7 @@ I’m open to software engineering opportunities, collaboration, and thoughtful 
 My personal portfolio for presenting projects and engineering interests.
 
 - **Stack:** React, TypeScript, Vite, and Tailwind CSS
-- **Live site:** [jatin-ahuja-portfolio.vercel.app](https://jatin-ahuja-portfolio.vercel.app)
+- **Live site:** [jatin-portfolio-eight-psi.vercel.app](https://jatin-portfolio-eight-psi.vercel.app)
 
 ### [Student Grade Management](https://github.com/2403051050553/student-grade-management)
 
