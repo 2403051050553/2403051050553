@@ -9,7 +9,7 @@
 
 ## Introduction
 
-I’m a **Computer Science Engineering student at Parul University**, graduating in **2028**. I build practical software, practice data structures and algorithms, and am developing my skills in Java backend and full-stack web development.
+I’m a **B.Tech Computer Science Engineering student at Parul University** and an aspiring software engineer. I build full-stack, AI, and scalable applications; work with **Java, Spring Boot, React, SQL, and DSA**; and am **open to internships and opportunities**.
 
 ## Tech stack
 

@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1160" viewBox="0 0 1040 1160" role="img" aria-labelledby="title desc">
   <title id="title">Jatin Tehalram Ahuja — GitHub profile dashboard</title>
-  <desc id="desc">A GitHub-inspired dark dashboard with Jatin's introduction, verified skills and profile statistics, six real repositories, and a link to his live GitHub contribution graph.</desc>
+  <desc id="desc">A GitHub-inspired dark dashboard with Jatin's software engineering bio, verified skills and profile statistics, six real repositories, and a link to his live GitHub contribution graph.</desc>
   <defs>
     <linearGradient id="readme-border" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#3fb950"/>
@@ -59,9 +59,10 @@
     <text x="70" y="77" fill="#93c5fd" font-size="10" font-weight="700" letter-spacing="1.8">COMPUTER SCIENCE ENGINEERING STUDENT</text>
     <text x="70" y="108" fill="#f8fafc" font-size="24" font-weight="700">Hi 👋, I’m Jatin Tehalram Ahuja</text>
     <text x="70" y="130" fill="#c9d1d9" font-size="13">B.Tech Computer Science Engineering Student</text>
-    <text x="70" y="148" fill="#c9d1d9" font-size="13">at Parul University · Expected graduation: 2028</text>
-    <text x="70" y="169" fill="#c9d1d9" font-size="11">Building real-world apps and learning full-stack development,</text>
-    <text x="70" y="184" fill="#c9d1d9" font-size="11">AI/ML and data structures &amp; algorithms.</text>
+    <text x="70" y="148" fill="#c9d1d9" font-size="13">at Parul University · Aspiring Software Engineer</text>
+    <text x="70" y="168" fill="#c9d1d9" font-size="11">Building Full-Stack, AI &amp; Scalable Apps with</text>
+    <text x="70" y="182" fill="#c9d1d9" font-size="11">Java, Spring Boot, React &amp; SQL · DSA</text>
+    <text x="70" y="196" fill="#c9d1d9" font-size="11">Open to Internships &amp; Opportunities</text>
     <rect x="565" y="63" width="196" height="112" rx="10" fill="#111827" stroke="#30363d"/>
     <text x="580" y="83" fill="#93c5fd" font-size="9" font-weight="700" letter-spacing="1">FOCUS AREAS</text>
     <circle cx="582" cy="101" r="3" fill="#39d353"/>
@@ -92,9 +93,9 @@
       <rect x="390" y="207" width="91" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
       <text x="435.5" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">Portfolio ↗</text>
     </a>
-    <a href="https://github.com/2403051050553">
+    <a href="https://www.youtube.com/@JATINTEHALRAMAHUJA">
       <rect x="488" y="207" width="88" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
-      <text x="532" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">GitHub ↗</text>
+      <text x="532" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">YouTube ↗</text>
     </a>
   </g>
 
