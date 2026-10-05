@@ -9,7 +9,11 @@
 
 ## Introduction
 
-I’m a **B.Tech Computer Science Engineering student at Parul University** and an aspiring software engineer. I build full-stack, AI, and scalable applications; work with **Java, Spring Boot, React, SQL, and DSA**; and am **open to internships and opportunities**.
+🎓 **B.Tech CSE Student @ Parul University**<br>
+💻 **Aspiring Software Engineer**<br>
+🚀 **Building Full-Stack, AI & Scalable Applications**<br>
+🧠 **DSA | Java | Spring Boot | React | SQL**<br>
+📈 **Open to Internships & Opportunities**
 
 ## Tech stack
 

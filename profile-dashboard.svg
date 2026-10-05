@@ -58,11 +58,11 @@
     <rect x="53" y="68" width="4" height="101" rx="2" fill="#58a6ff"/>
     <text x="70" y="77" fill="#93c5fd" font-size="10" font-weight="700" letter-spacing="1.8">COMPUTER SCIENCE ENGINEERING STUDENT</text>
     <text x="70" y="108" fill="#f8fafc" font-size="24" font-weight="700">Hi 👋, I’m Jatin Tehalram Ahuja</text>
-    <text x="70" y="130" fill="#c9d1d9" font-size="13">B.Tech Computer Science Engineering Student</text>
-    <text x="70" y="148" fill="#c9d1d9" font-size="13">at Parul University · Aspiring Software Engineer</text>
-    <text x="70" y="168" fill="#c9d1d9" font-size="11">Building Full-Stack, AI &amp; Scalable Apps with</text>
-    <text x="70" y="182" fill="#c9d1d9" font-size="11">Java, Spring Boot, React &amp; SQL · DSA</text>
-    <text x="70" y="196" fill="#c9d1d9" font-size="11">Open to Internships &amp; Opportunities</text>
+    <text x="70" y="130" fill="#c9d1d9" font-size="11">🎓 B.Tech CSE Student @ Parul Univ.</text>
+    <text x="70" y="146" fill="#c9d1d9" font-size="11">💻 Aspiring Software Engineer</text>
+    <text x="70" y="162" fill="#c9d1d9" font-size="11">🚀 Full-Stack, AI &amp; Scalable Apps</text>
+    <text x="70" y="178" fill="#c9d1d9" font-size="11">🧠 DSA|Java|Spring Boot|React|SQL</text>
+    <text x="70" y="194" fill="#c9d1d9" font-size="11">📈 Internships &amp; Opportunities</text>
     <rect x="565" y="63" width="196" height="112" rx="10" fill="#111827" stroke="#30363d"/>
     <text x="580" y="83" fill="#93c5fd" font-size="9" font-weight="700" letter-spacing="1">FOCUS AREAS</text>
     <circle cx="582" cy="101" r="3" fill="#39d353"/>
