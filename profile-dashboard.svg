@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="1160" viewBox="0 0 1040 1160" role="img" aria-labelledby="title desc">
+  <title id="title">Jatin Tehalram Ahuja — GitHub profile dashboard</title>
+  <desc id="desc">A GitHub-inspired dark dashboard with Jatin's introduction, verified skills and profile statistics, six real repositories, and a link to his live GitHub contribution graph.</desc>
+  <defs>
+    <linearGradient id="readme-border" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#3fb950"/>
+      <stop offset="1" stop-color="#26a641"/>
+    </linearGradient>
+    <linearGradient id="tech-border" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#f0b429"/>
+      <stop offset="1" stop-color="#fb8500"/>
+    </linearGradient>
+    <linearGradient id="stats-border" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#d2a8ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <linearGradient id="projects-border" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#79c0ff"/>
+      <stop offset="1" stop-color="#2f81f7"/>
+    </linearGradient>
+    <linearGradient id="activity-border" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#ff7bba"/>
+      <stop offset="1" stop-color="#db61a2"/>
+    </linearGradient>
+    <pattern id="contribution-grid" width="14" height="77" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="10" height="8" rx="2" fill="#161b22"/>
+      <rect x="0" y="11" width="10" height="8" rx="2" fill="#161b22"/>
+      <rect x="0" y="22" width="10" height="8" rx="2" fill="#161b22"/>
+      <rect x="0" y="33" width="10" height="8" rx="2" fill="#161b22"/>
+      <rect x="0" y="44" width="10" height="8" rx="2" fill="#161b22"/>
+      <rect x="0" y="55" width="10" height="8" rx="2" fill="#161b22"/>
+      <rect x="0" y="66" width="10" height="8" rx="2" fill="#161b22"/>
+    </pattern>
+    <linearGradient id="banner" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#111827"/>
+      <stop offset="1" stop-color="#101a30"/>
+    </linearGradient>
+    <style>
+      text { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; }
+      .panel { fill: #0d1117; stroke-width: 2; }
+      .heading { fill: #f0f6fc; font-size: 20px; font-weight: 700; }
+      .body { fill: #c9d1d9; font-size: 13px; }
+      .muted { fill: #8b949e; font-size: 11px; }
+      .small { fill: #c9d1d9; font-size: 11px; }
+      .repo-title { fill: #58a6ff; font-size: 12px; font-weight: 650; }
+      .repo-desc { fill: #8b949e; font-size: 10px; }
+      .badge { fill: #161b22; stroke: #30363d; stroke-width: 1; }
+      .callout { fill: #c9d1d9; font-size: 11px; }
+    </style>
+  </defs>
+
+  <rect width="1040" height="1130" fill="#080b10"/>
+
+  <g id="readme">
+    <rect class="panel" x="12" y="12" width="790" height="238" rx="10" stroke="url(#readme-border)"/>
+    <text x="30" y="34" class="muted">2403051050553 / README.md</text>
+    <rect x="30" y="47" width="754" height="147" rx="12" fill="url(#banner)" stroke="#263449"/>
+    <rect x="53" y="68" width="4" height="101" rx="2" fill="#58a6ff"/>
+    <text x="70" y="77" fill="#93c5fd" font-size="10" font-weight="700" letter-spacing="1.8">COMPUTER SCIENCE ENGINEERING STUDENT</text>
+    <text x="70" y="108" fill="#f8fafc" font-size="25" font-weight="700">Jatin Tehalram Ahuja</text>
+    <text x="70" y="130" fill="#c9d1d9" font-size="13">Parul University · Expected graduation: 2028</text>
+    <text x="70" y="154" fill="#c9d1d9" font-size="11">Building practical software with Java, Spring Boot, React and TypeScript.</text>
+    <text x="70" y="178" fill="#7d8590" font-size="9" letter-spacing="1">LEARN · BUILD · ITERATE</text>
+    <rect x="565" y="63" width="196" height="112" rx="10" fill="#111827" stroke="#30363d"/>
+    <text x="580" y="83" fill="#93c5fd" font-size="9" font-weight="700" letter-spacing="1">FOCUS AREAS</text>
+    <circle cx="582" cy="101" r="3" fill="#39d353"/>
+    <text x="592" y="105" class="small">Java backend</text>
+    <circle cx="582" cy="120" r="3" fill="#a371f7"/>
+    <text x="592" y="124" class="small">Full-stack projects</text>
+    <circle cx="582" cy="139" r="3" fill="#2f81f7"/>
+    <text x="592" y="143" class="small">DSA &amp; problem solving</text>
+    <rect x="580" y="151" width="47" height="15" rx="7" fill="#172b42"/>
+    <text x="603.5" y="162" text-anchor="middle" fill="#79c0ff" font-size="8" font-weight="700">JAVA</text>
+    <rect x="632" y="151" width="60" height="15" rx="7" fill="#241d3f"/>
+    <text x="662" y="162" text-anchor="middle" fill="#d2a8ff" font-size="8" font-weight="700">SPRING</text>
+    <rect x="697" y="151" width="49" height="15" rx="7" fill="#15343a"/>
+    <text x="721.5" y="162" text-anchor="middle" fill="#56d4dd" font-size="8" font-weight="700">REACT</text>
+    <a href="https://www.linkedin.com/in/jatin-tehalram-ahuja-0386b5390/">
+      <rect x="90" y="207" width="106" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
+      <text x="143" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">LinkedIn ↗</text>
+    </a>
+    <a href="https://leetcode.com/u/2403051050553/">
+      <rect x="203" y="207" width="98" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
+      <text x="252" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">LeetCode ↗</text>
+    </a>
+    <a href="mailto:2403051050553@paruluniversity.ac.in">
+      <rect x="308" y="207" width="75" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
+      <text x="345.5" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">Email ↗</text>
+    </a>
+    <a href="https://jatin-portfolio-eight-psi.vercel.app">
+      <rect x="390" y="207" width="91" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
+      <text x="435.5" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">Portfolio ↗</text>
+    </a>
+    <a href="https://github.com/2403051050553">
+      <rect x="488" y="207" width="88" height="25" rx="5" fill="#161b22" stroke="#30363d"/>
+      <text x="532" y="223" text-anchor="middle" fill="#c9d1d9" font-size="10">GitHub ↗</text>
+    </a>
+  </g>
+
+  <g id="tech-stack">
+    <rect class="panel" x="12" y="260" width="790" height="232" rx="10" stroke="url(#tech-border)"/>
+    <text x="30" y="288" class="heading">⚒  Tech Stack</text>
+    <path d="M30 301H784 M30 339H784 M30 377H784 M30 415H784 M30 453H784" stroke="#21262d"/>
+    <g class="small">
+      <text x="44" y="326">◈  Languages</text>
+      <text x="44" y="364">◈  Frontend</text>
+      <text x="44" y="402">◈  Backend</text>
+      <text x="44" y="440">◈  Database</text>
+      <text x="44" y="478">◈  Tools</text>
+    </g>
+    <g font-size="11" font-weight="600" fill="#c9d1d9">
+      <rect class="badge" x="205" y="309" width="77" height="23" rx="5"/><text x="243.5" y="325" text-anchor="middle">☕ Java</text>
+      <rect class="badge" x="291" y="309" width="86" height="23" rx="5"/><text x="334" y="325" text-anchor="middle">🐍 Python</text>
+      <rect class="badge" x="386" y="309" width="113" height="23" rx="5"/><text x="442.5" y="325" text-anchor="middle">JS JavaScript</text>
+      <rect class="badge" x="508" y="309" width="105" height="23" rx="5"/><text x="560.5" y="325" text-anchor="middle">TS TypeScript</text>
+      <rect class="badge" x="622" y="309" width="68" height="23" rx="5"/><text x="656" y="325" text-anchor="middle">▤ SQL</text>
+      <rect class="badge" x="205" y="347" width="75" height="23" rx="5"/><text x="242.5" y="363" text-anchor="middle">⚛ React</text>
+      <rect class="badge" x="289" y="347" width="76" height="23" rx="5"/><text x="327" y="363" text-anchor="middle">HTML5</text>
+      <rect class="badge" x="374" y="347" width="70" height="23" rx="5"/><text x="409" y="363" text-anchor="middle">CSS3</text>
+      <rect class="badge" x="451" y="347" width="117" height="23" rx="5"/><text x="509.5" y="363" text-anchor="middle">Tailwind CSS</text>
+      <rect class="badge" x="205" y="385" width="110" height="23" rx="5"/><text x="260" y="401" text-anchor="middle">Spring Boot</text>
+      <rect class="badge" x="324" y="385" width="80" height="23" rx="5"/><text x="364" y="401" text-anchor="middle">Node.js</text>
+      <rect class="badge" x="413" y="385" width="92" height="23" rx="5"/><text x="459" y="401" text-anchor="middle">REST APIs</text>
+      <rect class="badge" x="205" y="423" width="74" height="23" rx="5"/><text x="242" y="439" text-anchor="middle">MySQL</text>
+      <rect class="badge" x="288" y="423" width="90" height="23" rx="5"/><text x="333" y="439" text-anchor="middle">PostgreSQL</text>
+      <rect class="badge" x="387" y="423" width="92" height="23" rx="5"/><text x="433" y="439" text-anchor="middle">MongoDB</text>
+      <rect class="badge" x="205" y="461" width="59" height="23" rx="5"/><text x="234.5" y="477" text-anchor="middle">Git</text>
+      <rect class="badge" x="273" y="461" width="78" height="23" rx="5"/><text x="312" y="477" text-anchor="middle">GitHub</text>
+      <rect class="badge" x="360" y="461" width="82" height="23" rx="5"/><text x="401" y="477" text-anchor="middle">VS Code</text>
+      <rect class="badge" x="451" y="461" width="84" height="23" rx="5"/><text x="493" y="477" text-anchor="middle">Postman</text>
+      <rect class="badge" x="544" y="461" width="72" height="23" rx="5"/><text x="580" y="477" text-anchor="middle">Maven</text>
+    </g>
+  </g>
+
+  <g id="stats">
+    <rect class="panel" x="12" y="502" width="790" height="160" rx="10" stroke="url(#stats-border)"/>
+    <text x="30" y="530" class="heading">▥  GitHub Stats</text>
+    <rect x="30" y="542" width="230" height="100" rx="7" fill="#101720" stroke="#30363d"/>
+    <text x="46" y="564" fill="#58a6ff" font-size="13" font-weight="700">JatinAhuja</text>
+    <text x="46" y="587" class="small">159 Contributions in the last year</text>
+    <text x="46" y="607" class="small">29 Public repositories</text>
+    <text x="46" y="627" class="small">2 Followers</text>
+    <rect x="271" y="542" width="295" height="100" rx="7" fill="#101720" stroke="#30363d"/>
+    <text x="288" y="564" fill="#f0f6fc" font-size="12" font-weight="650">Contribution activity</text>
+    <text x="288" y="582" class="muted">Open the native graph on my GitHub profile</text>
+    <a href="https://github.com/2403051050553">
+      <rect x="288" y="596" width="146" height="27" rx="5" fill="#161b22" stroke="#30363d"/>
+      <text x="361" y="614" text-anchor="middle" fill="#79c0ff" font-size="10">View live activity ↗</text>
+    </a>
+    <rect x="577" y="542" width="207" height="100" rx="7" fill="#101720" stroke="#30363d"/>
+    <text x="594" y="564" fill="#f0f6fc" font-size="12" font-weight="650">Languages &amp; tools</text>
+    <text x="594" y="587" class="small">Java · TypeScript</text>
+    <text x="594" y="606" class="small">JavaScript · Python</text>
+    <text x="594" y="625" class="small">SQL · React · Spring Boot</text>
+  </g>
+
+  <g id="pinned-repositories">
+    <rect class="panel" x="12" y="672" width="790" height="318" rx="10" stroke="url(#projects-border)"/>
+    <text x="30" y="701" class="heading">📌  Pinned Repositories</text>
+    <text x="649" y="700" class="muted">Six selected public projects</text>
+
+    <a href="https://github.com/2403051050553/Youtube-Clone">
+      <rect x="28" y="716" width="244" height="118" rx="7" fill="#0b1017" stroke="#30363d"/>
+      <text x="42" y="738" class="repo-title">Youtube-Clone</text>
+      <rect x="226" y="724" width="35" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+      <text x="243.5" y="735" text-anchor="middle" class="muted" font-size="9">Public</text>
+      <text x="42" y="761" class="repo-desc">Video-browsing homepage built with</text>
+      <text x="42" y="776" class="repo-desc">HTML and CSS, with original SVG assets.</text>
+      <circle cx="48" cy="808" r="4" fill="#e34c26"/><text x="58" y="812" class="muted">HTML</text>
+      <circle cx="111" cy="808" r="4" fill="#563d7c"/><text x="121" y="812" class="muted">CSS</text>
+    </a>
+
+    <a href="https://github.com/2403051050553/NETFLIX-CLONE">
+      <rect x="282" y="716" width="244" height="118" rx="7" fill="#0b1017" stroke="#30363d"/>
+      <text x="296" y="738" class="repo-title">NETFLIX-CLONE</text>
+      <rect x="480" y="724" width="35" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+      <text x="497.5" y="735" text-anchor="middle" class="muted" font-size="9">Public</text>
+      <text x="296" y="761" class="repo-desc">Static streaming-service landing page</text>
+      <text x="296" y="776" class="repo-desc">concept built with HTML and CSS.</text>
+      <circle cx="302" cy="808" r="4" fill="#e34c26"/><text x="312" y="812" class="muted">HTML</text>
+      <circle cx="365" cy="808" r="4" fill="#563d7c"/><text x="375" y="812" class="muted">CSS</text>
+    </a>
+
+    <a href="https://github.com/2403051050553/jatin-portfolio">
+      <rect x="536" y="716" width="250" height="118" rx="7" fill="#0b1017" stroke="#30363d"/>
+      <text x="550" y="738" class="repo-title">jatin-portfolio</text>
+      <rect x="740" y="724" width="35" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+      <text x="757.5" y="735" text-anchor="middle" class="muted" font-size="9">Public</text>
+      <text x="550" y="761" class="repo-desc">Personal portfolio with React, TypeScript,</text>
+      <text x="550" y="776" class="repo-desc">Vite and Tailwind CSS.</text>
+      <circle cx="556" cy="808" r="4" fill="#3178c6"/><text x="566" y="812" class="muted">TypeScript</text>
+    </a>
+
+    <a href="https://github.com/2403051050553/LeetCode-Solutions">
+      <rect x="28" y="844" width="244" height="128" rx="7" fill="#0b1017" stroke="#30363d"/>
+      <text x="42" y="866" class="repo-title">LeetCode-Solutions</text>
+      <rect x="226" y="852" width="35" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+      <text x="243.5" y="863" text-anchor="middle" class="muted" font-size="9">Public</text>
+      <text x="42" y="889" class="repo-desc">Java algorithm practice with tested array,</text>
+      <text x="42" y="904" class="repo-desc">string and binary-search implementations.</text>
+      <circle cx="48" cy="946" r="4" fill="#b07219"/><text x="58" y="950" class="muted">Java</text>
+      <circle cx="104" cy="946" r="4" fill="#6e40c9"/><text x="114" y="950" class="muted">Algorithms</text>
+    </a>
+
+    <a href="https://github.com/2403051050553/SPOTIFY-CLONE">
+      <rect x="282" y="844" width="244" height="128" rx="7" fill="#0b1017" stroke="#30363d"/>
+      <text x="296" y="866" class="repo-title">SPOTIFY-CLONE</text>
+      <rect x="480" y="852" width="35" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+      <text x="497.5" y="863" text-anchor="middle" class="muted" font-size="9">Public</text>
+      <text x="296" y="889" class="repo-desc">Static Spotify-inspired music landing</text>
+      <text x="296" y="904" class="repo-desc">page concept built with HTML and CSS.</text>
+      <circle cx="302" cy="946" r="4" fill="#e34c26"/><text x="312" y="950" class="muted">HTML</text>
+      <circle cx="365" cy="946" r="4" fill="#563d7c"/><text x="375" y="950" class="muted">CSS</text>
+    </a>
+
+    <a href="https://github.com/2403051050553/student-grade-management">
+      <rect x="536" y="844" width="250" height="128" rx="7" fill="#0b1017" stroke="#30363d"/>
+      <text x="550" y="866" class="repo-title">student-grade-management</text>
+      <rect x="740" y="852" width="35" height="16" rx="8" fill="#161b22" stroke="#30363d"/>
+      <text x="757.5" y="863" text-anchor="middle" class="muted" font-size="9">Public</text>
+      <text x="550" y="889" class="repo-desc">Java 17 Spring Boot API with JWT login</text>
+      <text x="550" y="904" class="repo-desc">and MySQL student-grade persistence.</text>
+      <circle cx="556" cy="946" r="4" fill="#b07219"/><text x="566" y="950" class="muted">Java</text>
+      <circle cx="610" cy="946" r="4" fill="#6db33f"/><text x="620" y="950" class="muted">Spring Boot</text>
+    </a>
+  </g>
+
+  <g id="activity">
+    <rect class="panel" x="12" y="1000" width="790" height="144" rx="10" stroke="url(#activity-border)"/>
+    <text x="30" y="1027" class="heading" font-size="17">159 contributions in the last year</text>
+    <a href="https://github.com/2403051050553">
+      <text x="649" y="1026" fill="#79c0ff" font-size="10">Open live GitHub graph ↗</text>
+    </a>
+    <g class="muted" font-size="8">
+      <text x="30" y="1048">Oct</text><text x="86" y="1048">Nov</text><text x="170" y="1048">Dec</text>
+      <text x="254" y="1048">Jan</text><text x="338" y="1048">Feb</text><text x="422" y="1048">Mar</text>
+      <text x="506" y="1048">Apr</text><text x="590" y="1048">May</text><text x="674" y="1048">Jun</text>
+      <text x="730" y="1048">Jul</text>
+    </g>
+    <rect x="30" y="1054" width="742" height="77" fill="url(#contribution-grid)"/>
+    <g>
+      <rect x="184" y="1054" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="198" y="1054" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="506" y="1054" width="10" height="8" rx="2" fill="#006d32"/>
+      <rect x="758" y="1054" width="10" height="8" rx="2" fill="#39d353"/>
+      <rect x="646" y="1065" width="10" height="8" rx="2" fill="#39d353"/>
+      <rect x="86" y="1076" width="10" height="8" rx="2" fill="#006d32"/>
+      <rect x="324" y="1076" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="506" y="1076" width="10" height="8" rx="2" fill="#006d32"/>
+      <rect x="100" y="1087" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="128" y="1087" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="142" y="1087" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="184" y="1087" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="492" y="1087" width="10" height="8" rx="2" fill="#006d32"/>
+      <rect x="492" y="1098" width="10" height="8" rx="2" fill="#26a641"/>
+      <rect x="506" y="1098" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="730" y="1098" width="10" height="8" rx="2" fill="#39d353"/>
+      <rect x="744" y="1098" width="10" height="8" rx="2" fill="#26a641"/>
+      <rect x="86" y="1109" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="100" y="1109" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="142" y="1109" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="156" y="1109" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="492" y="1109" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="744" y="1109" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="72" y="1120" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="156" y="1120" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="268" y="1120" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="492" y="1120" width="10" height="8" rx="2" fill="#39d353"/>
+      <rect x="506" y="1120" width="10" height="8" rx="2" fill="#0e4429"/>
+      <rect x="744" y="1120" width="10" height="8" rx="2" fill="#0e4429"/>
+    </g>
+  </g>
+
+  <g id="section-guide">
+    <rect x="822" y="18" width="205" height="29" rx="8" fill="#3fb950"/>
+    <text x="836" y="37" fill="#07140a" font-size="14" font-weight="700">Profile README</text>
+    <text x="832" y="66" class="callout">• Introduction</text>
+    <text x="832" y="83" class="callout">• Your focus areas</text>
+    <text x="832" y="100" class="callout">• Tech stack</text>
+    <text x="832" y="117" class="callout">• Links &amp; profile</text>
+    <text x="832" y="134" class="callout">• Looks professional</text>
+
+    <rect x="822" y="260" width="205" height="29" rx="8" fill="#d29922"/>
+    <text x="836" y="279" fill="#171105" font-size="14" font-weight="700">Tech Stack Section</text>
+    <text x="832" y="308" class="callout">• Show your skills</text>
+    <text x="832" y="325" class="callout">• Use icons &amp; badges</text>
+    <text x="832" y="342" class="callout">• Keep it clean</text>
+
+    <rect x="822" y="502" width="205" height="29" rx="8" fill="#d2a8ff"/>
+    <text x="836" y="521" fill="#170b26" font-size="14" font-weight="700">GitHub Stats Section</text>
+    <text x="832" y="550" class="callout">• Verified profile stats</text>
+    <text x="832" y="567" class="callout">• Native contribution graph</text>
+    <text x="832" y="584" class="callout">• Languages &amp; tools</text>
+
+    <rect x="822" y="672" width="205" height="29" rx="8" fill="#79c0ff"/>
+    <text x="836" y="691" fill="#071526" font-size="14" font-weight="700">Pinned Repositories</text>
+    <text x="832" y="720" class="callout">• Show six real projects</text>
+    <text x="832" y="737" class="callout">• Each with description</text>
+    <text x="832" y="754" class="callout">• Tech stack</text>
+    <text x="832" y="771" class="callout">• Relevant repositories</text>
+
+    <rect x="822" y="1000" width="205" height="29" rx="8" fill="#ff7bba"/>
+    <text x="836" y="1019" fill="#260a18" font-size="14" font-weight="700">Contribution Graph</text>
+    <text x="832" y="1048" class="callout">• Shows your activity</text>
+    <text x="832" y="1065" class="callout">• Live data stays on GitHub</text>
+    <text x="832" y="1082" class="callout">• Open your native graph</text>
+  </g>
+</svg>
