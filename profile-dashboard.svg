@@ -57,10 +57,11 @@
     <rect x="30" y="47" width="754" height="147" rx="12" fill="url(#banner)" stroke="#263449"/>
     <rect x="53" y="68" width="4" height="101" rx="2" fill="#58a6ff"/>
     <text x="70" y="77" fill="#93c5fd" font-size="10" font-weight="700" letter-spacing="1.8">COMPUTER SCIENCE ENGINEERING STUDENT</text>
-    <text x="70" y="108" fill="#f8fafc" font-size="25" font-weight="700">Jatin Tehalram Ahuja</text>
-    <text x="70" y="130" fill="#c9d1d9" font-size="13">Parul University · Expected graduation: 2028</text>
-    <text x="70" y="154" fill="#c9d1d9" font-size="11">Building practical software with Java, Spring Boot, React and TypeScript.</text>
-    <text x="70" y="178" fill="#7d8590" font-size="9" letter-spacing="1">LEARN · BUILD · ITERATE</text>
+    <text x="70" y="108" fill="#f8fafc" font-size="24" font-weight="700">Hi 👋, I’m Jatin Tehalram Ahuja</text>
+    <text x="70" y="130" fill="#c9d1d9" font-size="13">B.Tech Computer Science Engineering Student</text>
+    <text x="70" y="148" fill="#c9d1d9" font-size="13">at Parul University · Expected graduation: 2028</text>
+    <text x="70" y="169" fill="#c9d1d9" font-size="11">Building real-world apps and learning full-stack development,</text>
+    <text x="70" y="184" fill="#c9d1d9" font-size="11">AI/ML and data structures &amp; algorithms.</text>
     <rect x="565" y="63" width="196" height="112" rx="10" fill="#111827" stroke="#30363d"/>
     <text x="580" y="83" fill="#93c5fd" font-size="9" font-weight="700" letter-spacing="1">FOCUS AREAS</text>
     <circle cx="582" cy="101" r="3" fill="#39d353"/>
@@ -137,12 +138,12 @@
     <text x="30" y="530" class="heading">▥  GitHub Stats</text>
     <rect x="30" y="542" width="230" height="100" rx="7" fill="#101720" stroke="#30363d"/>
     <text x="46" y="564" fill="#58a6ff" font-size="13" font-weight="700">JatinAhuja</text>
-    <text x="46" y="587" class="small">166 Contributions in the last year</text>
+    <text x="46" y="587" class="small">167 contributions in the last year</text>
     <text x="46" y="607" class="small">29 Public repositories</text>
     <text x="46" y="627" class="small">2 Followers</text>
     <rect x="271" y="542" width="295" height="100" rx="7" fill="#101720" stroke="#30363d"/>
     <text x="288" y="564" fill="#f0f6fc" font-size="12" font-weight="650">Contribution activity</text>
-    <text x="288" y="582" class="muted">Open the native graph on my GitHub profile</text>
+    <text x="288" y="582" class="muted">GitHub profile snapshot · Oct 5, 2026</text>
     <a href="https://github.com/2403051050553">
       <rect x="288" y="596" width="146" height="27" rx="5" fill="#161b22" stroke="#30363d"/>
       <text x="361" y="614" text-anchor="middle" fill="#79c0ff" font-size="10">View live activity ↗</text>
@@ -227,7 +228,7 @@
 
   <g id="activity">
     <rect class="panel" x="12" y="1000" width="790" height="144" rx="10" stroke="url(#activity-border)"/>
-    <text x="30" y="1027" class="heading" font-size="17">166 contributions in the last year</text>
+    <text x="30" y="1027" class="heading" font-size="17">167 contributions in the last year</text>
     <a href="https://github.com/2403051050553">
       <text x="649" y="1026" fill="#79c0ff" font-size="10">Open live GitHub graph ↗</text>
     </a>
