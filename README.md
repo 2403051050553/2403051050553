@@ -23,7 +23,7 @@ I’m a **Computer Science Engineering student at Parul University**, graduating
 
 ## GitHub stats
 
-Profile snapshot checked October 5, 2026: **168 contributions in the last year**, **29 public repositories**, and **2 followers**. GitHub’s native, live contribution calendar is displayed on this profile.
+Profile snapshot checked October 5, 2026: **29 public repositories** and **2 followers**. Contribution totals change as new work is published; GitHub’s live contribution calendar is displayed below this profile README.
 
 ## Pinned repositories
 
