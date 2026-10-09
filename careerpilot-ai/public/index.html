@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f7fb">
+  <meta name="description" content="Your AI-powered career launchpad: track DSA, sharpen your resume, practice interviews, and land internships.">
+  <title>CareerPilot AI — Your career, in motion</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#dashboard" aria-label="CareerPilot home">
+        <span class="brand-mark"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3.5 18.9 12l8.6 2.8-8.6 2.9-2.9 8.6-2.8-8.6-8.7-2.9L13.2 12 16 3.5Z" fill="currentColor"/><path d="m25.4 21.3 1.1 3.2 3.2 1.1-3.2 1.1-1.1 3.1-1-3.1-3.2-1.1 3.2-1.1 1-3.2Z" fill="currentColor"/></svg></span>
+        <span class="brand-name">career<span>pilot</span><sup>AI</sup></span>
+      </a>
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav class="side-nav" aria-label="Main navigation">
+        <a class="nav-link active" href="#dashboard" data-page="dashboard"><span class="nav-icon">⌂</span> Overview</a>
+        <a class="nav-link" href="#resume" data-page="resume"><span class="nav-icon">▤</span> Resume studio <span class="nav-new">AI</span></a>
+        <a class="nav-link" href="#dsa" data-page="dsa"><span class="nav-icon">⌘</span> DSA tracker</a>
+        <a class="nav-link" href="#interview" data-page="interview"><span class="nav-icon">◉</span> Mock interview <span class="nav-dot"></span></a>
+        <a class="nav-link" href="#internships" data-page="internships"><span class="nav-icon">▣</span> Applications</a>
+      </nav>
+      <div class="sidebar-bottom"></div>
+        <div class="sidebar-tip">
+          <div class="tip-icon">✦</div>
+          <div class="tip-title">Small steps, big offers.</div>
+          <p>Consistency beats intensity. Keep showing up.</p>
+          <div class="tip-sparkline"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="sidebar-user">
+          <div class="avatar">Y</div>
+          <div><strong>Your workspace</strong><span>Career launchpad</span></div>
+          <span class="user-menu">···</span>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="mobile-menu" id="menu-toggle" aria-label="Open navigation">☰</button>
+        <div class="breadcrumb">Workspace <span>/</span> <strong id="breadcrumb-page">Overview</strong></div>
+        <div class="topbar-right"><span class="today-label" id="today-label"></span><span class="top-avatar">Y</span></div>
+      </header>
+
+      <div class="page-wrap">
+        <section class="page active" id="page-dashboard">
+          <div class="welcome-row">
+            <div><div class="eyebrow"><span class="live-dot"></span> YOUR CAREER, IN MOTION</div><h1>Hey there, <span>future you.</span> <span class="wave">✳</span></h1><p class="page-subtitle">Your next opportunity is closer than you think. Here's your progress today.</p></div>
+            <button class="button button-primary" data-go="resume"><span>✦</span> Analyze my resume</button>
+          </div>
+          <div class="stats-grid">
+            <article class="stat-card"><div class="stat-top"><span class="stat-label">Problems solved</span><span class="stat-icon violet">⌘</span></div><div class="stat-number" id="stat-problems">0</div><div class="stat-foot"><span id="problem-progress">Start your first one</span><div class="mini-progress"><i id="problem-progress-bar"></i></div></div></article>
+            <article class="stat-card"><div class="stat-top"><span class="stat-label">Applications sent</span><span class="stat-icon blue">↗</span></div><div class="stat-number" id="stat-applications">0</div><div class="stat-foot"><span class="stat-note">Every application counts</span><span class="stat-arrow">↗</span></div></article>
+            <article class="stat-card"><div class="stat-top"><span class="stat-label">Interviews lined up</span><span class="stat-icon orange">◉</span></div><div class="stat-number" id="stat-interviews">0</div><div class="stat-foot"><span class="stat-note">Your effort is paying off</span><span class="stat-arrow">↗</span></div></article>
+            <article class="stat-card"><div class="stat-top"><span class="stat-label">Offers received</span><span class="stat-icon green">✦</span></div><div class="stat-number" id="stat-offers">0</div><div class="stat-foot"><span class="stat-note">The best is yet to come</span><span class="stat-arrow">↗</span></div></article>
+          </div>
+          <div class="dashboard-grid">
+            <section class="panel momentum-panel">
+              <div class="panel-heading"><div><h2>Your momentum</h2><p>Build a little progress every day.</p></div><span class="period-pill">Your journey</span></div>
+              <div class="momentum-chart">
+                <div class="chart-y-labels"><span>4</span><span>3</span><span>2</span><span>1</span><span>0</span></div>
+                <div class="chart-main"><div class="chart-grid"><i></i><i></i><i></i><i></i><i></i></div><div class="chart-empty"><div class="chart-empty-icon">↗</div><strong>Your story starts here</strong><span>Log your first solved problem to see your momentum.</span></div><div class="chart-x-labels"><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span></div></div>
+              </div>
+              <div class="chart-legend"><span><i class="legend-dot purple"></i>Problems solved</span><span><i class="legend-dot blue-dot"></i>Applications</span></div>
+            </section>
+            <section class="panel quick-panel">
+              <div class="panel-heading"><div><h2>Today's focus</h2><p>A few actions to move you forward.</p></div><span class="focus-sparkle">✳</span></div>
+              <button class="focus-item" data-go="dsa"><span class="focus-icon focus-purple">⌘</span><span class="focus-copy"><strong>Solve a coding problem</strong><small>Keep your DSA skills sharp</small></span><span class="focus-chevron">›</span></button>
+              <button class="focus-item" data-go="interview"><span class="focus-icon focus-orange">◉</span><span class="focus-copy"><strong>Practice an interview</strong><small>Get comfortable out loud</small></span><span class="focus-chevron">›</span></button>
+              <button class="focus-item" data-go="internships"><span class="focus-icon focus-blue">↗</span><span class="focus-copy"><strong>Find your next opportunity</strong><small>One application at a time</small></span><span class="focus-chevron">›</span></button>
+              <div class="focus-footer"><span>✦</span> Showing up is already a win.</div>
+            </section>
+          </div>
+          <div class="dashboard-bottom">
+            <section class="panel recent-panel"><div class="panel-heading"><div><h2>Recent activity</h2><p>Your latest career wins.</p></div><button class="text-link" data-go="dsa">View tracker <span>→</span></button></div><div id="recent-activity" class="activity-empty"><span class="empty-icon">✧</span><strong>Your wins will show up here</strong><span>Log a problem or add an application to get going.</span></div></section>
+            <section class="quote-card"><div class="quote-mark">“</div><blockquote>You don't have to see the whole staircase, just take the first step.</blockquote><div class="quote-author"><span></span> Martin Luther King Jr.</div><div class="quote-orbit orbit-one"></div><div class="quote-orbit orbit-two"></div></section>
+          </div>
+        </section>
+
+        <section class="page" id="page-resume">
+          <div class="section-heading"><div><div class="eyebrow">YOUR FIRST IMPRESSION, UPGRADED</div><h1>Resume <span>studio.</span></h1><p class="page-subtitle">Get thoughtful, actionable feedback before you hit apply.</p></div><span class="feature-badge">✦ AI-POWERED</span></div>
+          <div class="resume-layout">
+            <section class="panel resume-input-panel"><div class="panel-heading"><div><h2>Let's take a look</h2><p>Paste your resume text below to get started.</p></div><span class="resume-doc-icon">▤</span></div>
+              <label class="field-label" for="resume-text">RESUME TEXT</label><textarea id="resume-text" class="resume-textarea" placeholder="Paste your resume here — include your experience, projects, skills, and education for the most useful feedback..."></textarea>
+              <div class="textarea-meta"><span>🔒 Not stored. AI mode sends text to the configured provider.</span><span id="resume-count">0 characters</span></div>
+              <button class="button button-primary button-wide" id="analyze-resume"><span>✦</span> Analyze my resume</button>
+              <p class="demo-note">Demo feedback is instant. Add an AI API key on the server for personalized coaching.</p>
+            </section>
+            <section class="panel resume-results" id="resume-results"><div class="results-placeholder"><div class="placeholder-orbit"><span>✦</span></div><h2>Your next-level resume<br>starts here.</h2><p>Get a quick score, skills snapshot, and clear next steps tailored to your resume.</p><div class="placeholder-checks"><span>✓ ATS-friendly checks</span><span>✓ Skills snapshot</span><span>✓ Actionable suggestions</span></div></div></section>
+          </div>
+        </section>
+
+        <section class="page" id="page-dsa">
+          <div class="section-heading"><div><div class="eyebrow">ONE PROBLEM AT A TIME</div><h1>DSA <span>tracker.</span></h1><p class="page-subtitle">Make your problem-solving practice visible—and keep the streak alive.</p></div><button class="button button-primary" id="open-problem-form">＋ Log a problem</button></div>
+          <div class="stats-grid compact-stats"><article class="stat-card"><div class="stat-top"><span class="stat-label">Solved</span><span class="stat-icon violet">✓</span></div><div class="stat-number" id="dsa-solved">0</div><div class="stat-foot"><span class="stat-note">Problems mastered</span></div></article><article class="stat-card"><div class="stat-top"><span class="stat-label">In progress</span><span class="stat-icon orange">◷</span></div><div class="stat-number" id="dsa-progress">0</div><div class="stat-foot"><span class="stat-note">Keep working at it</span></div></article><article class="stat-card"><div class="stat-top"><span class="stat-label">Topics explored</span><span class="stat-icon blue">⌘</span></div><div class="stat-number" id="dsa-topics">0</div><div class="stat-foot"><span class="stat-note">Different concepts practiced</span></div></article><article class="stat-card"><div class="stat-top"><span class="stat-label">Solved rate</span><span class="stat-icon green">↗</span></div><div class="stat-number" id="dsa-rate">0%</div><div class="stat-foot"><span class="stat-note">Solved out of all logged</span></div></article></div>
+          <section class="panel table-panel"><div class="panel-heading table-heading"><div><h2>Your practice log</h2><p>Every attempt makes you a little stronger.</p></div><label class="search-box"><span>⌕</span><input type="search" id="problem-search" placeholder="Search problems"></label></div><div class="table-scroll"><table><thead><tr><th>PROBLEM</th><th>TOPIC</th><th>DIFFICULTY</th><th>STATUS</th><th>DATE ADDED</th><th></th></tr></thead><tbody id="problem-rows"></tbody></table><div id="problem-empty" class="table-empty"><span class="empty-icon">⌘</span><strong>Your first solve is waiting.</strong><span>Log a problem to start building your streak.</span></div></div></section>
+        </section>
+
+        <section class="page" id="page-interview">
+          <div class="section-heading"><div><div class="eyebrow">PRACTICE MAKES PREPARED</div><h1>Mock <span>interview.</span></h1><p class="page-subtitle">Think out loud, get a little feedback, and walk into the real thing with confidence.</p></div><span class="feature-badge"><i class="live-dot"></i> PRACTICE MODE</span></div>
+          <div class="interview-layout">
+            <section class="panel interview-chat-panel"><div class="chat-top"><div class="coach-avatar">✦</div><div><strong>Your interview coach</strong><span><i class="live-dot"></i> Ready when you are</span></div><button class="chat-reset" id="reset-interview" title="Start over" aria-label="Start over">↻</button></div>
+              <div class="chat-messages" id="chat-messages"><div class="chat-message coach-message"><div class="message-avatar">✦</div><div class="message-body"><span class="message-name">CAREERPILOT COACH</span><p>Hey! Let's warm up with a classic. Take your time and think out loud—there's no pressure here.</p><div class="question-card"><span>QUESTION 01 · BEHAVIORAL</span><strong>Tell me about a project you're proud of. What was your role, and what did you learn?</strong></div></div></div></div>
+              <form class="chat-composer" id="answer-form"><textarea id="interview-answer" rows="2" placeholder="Share your answer... (Enter to send, Shift + Enter for a new line)" required></textarea><button type="submit" id="send-answer" aria-label="Send answer">↑</button><div class="composer-hint">Be yourself. This is a safe space to practice.</div></form>
+            </section>
+            <aside class="interview-side"><section class="panel interview-tips"><div class="panel-heading"><div><h2>Quick reminders</h2><p>You've got this.</p></div><span class="tips-sparkle">✦</span></div><div class="reminder"><span>01</span><p><strong>Structure your story</strong>Try the STAR method: Situation, Task, Action, Result.</p></div><div class="reminder"><span>02</span><p><strong>Think out loud</strong>Your interviewer wants to understand how you approach problems.</p></div><div class="reminder"><span>03</span><p><strong>It's okay to pause</strong>A thoughtful answer beats a rushed one. Take a breath.</p></div></section><div class="interview-encouragement"><span>✳</span><div><strong>Progress, not perfection.</strong><p>Each practice round makes the next one easier.</p></div></div></aside>
+          </div>
+        </section>
+
+        <section class="page" id="page-internships">
+          <div class="section-heading"><div><div class="eyebrow">YOUR NEXT CHAPTER STARTS HERE</div><h1>Application <span>tracker.</span></h1><p class="page-subtitle">Keep every opportunity organized, from “maybe” to “let's go!”</p></div><button class="button button-primary" id="open-internship-form">＋ Add an application</button></div>
+          <div class="stats-grid compact-stats"><article class="stat-card"><div class="stat-top"><span class="stat-label">On your list</span><span class="stat-icon violet">▣</span></div><div class="stat-number" id="app-total">0</div><div class="stat-foot"><span class="stat-note">Opportunities saved</span></div></article><article class="stat-card"><div class="stat-top"><span class="stat-label">Applications sent</span><span class="stat-icon blue">↗</span></div><div class="stat-number" id="app-applied">0</div><div class="stat-foot"><span class="stat-note">You took the leap</span></div></article><article class="stat-card"><div class="stat-top"><span class="stat-label">In interview</span><span class="stat-icon orange">◉</span></div><div class="stat-number" id="app-interview">0</div><div class="stat-foot"><span class="stat-note">Doors are opening</span></div></article><article class="stat-card"><div class="stat-top"><span class="stat-label">Offers</span><span class="stat-icon green">✦</span></div><div class="stat-number" id="app-offers">0</div><div class="stat-foot"><span class="stat-note">Worth celebrating!</span></div></article></div>
+          <section class="panel table-panel"><div class="panel-heading table-heading"><div><h2>Your opportunities</h2><p>Every “no” is closer to a “yes.” Keep going.</p></div><label class="search-box"><span>⌕</span><input type="search" id="internship-search" placeholder="Search company or role"></label></div><div class="table-scroll"><table><thead><tr><th>COMPANY & ROLE</th><th>LOCATION</th><th>STATUS</th><th>DATE ADDED</th><th></th></tr></thead><tbody id="internship-rows"></tbody></table><div id="internship-empty" class="table-empty"><span class="empty-icon">↗</span><strong>A great opportunity is out there.</strong><span>Add your first company to keep your search organized.</span></div></div></section>
+        </section>
+        <div class="toast" id="toast" role="status" aria-live="polite"></div>
+      </div>
+      <footer class="footer"><span>Made for the next version of you <span class="footer-heart">✦</span></span><span>CAREERPILOT AI <i>·</i> YOUR FUTURE IS IN GOOD HANDS</span></footer>
+    </main>
+  </div>
+
+  <dialog class="modal" id="problem-modal"><form method="dialog" class="modal-inner" id="problem-form"><button class="modal-close" aria-label="Close">×</button><div class="eyebrow">LOG A WIN</div><h2>Add a DSA problem</h2><p>Small progress is still progress. Add today's practice.</p><label class="field-label" for="problem-title">PROBLEM NAME</label><input id="problem-title" class="form-input" required maxlength="120" placeholder="e.g. Two Sum"><div class="form-row"><label>TOPIC<select id="problem-topic" class="form-input"><option>Arrays</option><option>Strings</option><option>Hashing</option><option>Two Pointers</option><option>Sliding Window</option><option>Linked Lists</option><option>Trees</option><option>Graphs</option><option>Dynamic Programming</option><option>Stack & Queue</option><option>Binary Search</option><option>Other</option></select></label><label>DIFFICULTY<select id="problem-difficulty" class="form-input"><option>Easy</option><option selected>Medium</option><option>Hard</option></select></label></div><label class="field-label" for="problem-status">STATUS</label><select id="problem-status" class="form-input"><option>Solved</option><option>Attempted</option><option>Todo</option></select><button class="button button-primary button-wide modal-submit" type="submit">Save problem <span>→</span></button></form></dialog>
+  <dialog class="modal" id="internship-modal"><form method="dialog" class="modal-inner" id="internship-form"><button class="modal-close" aria-label="Close">×</button><div class="eyebrow">MAKE YOUR MOVE</div><h2>Add an opportunity</h2><p>Save a role now. You can update its status as you go.</p><label class="field-label" for="company-name">COMPANY</label><input id="company-name" class="form-input" required maxlength="100" placeholder="e.g. Acme Labs"><label class="field-label" for="role-name">ROLE</label><input id="role-name" class="form-input" required maxlength="120" placeholder="e.g. Software Engineering Intern"><label class="field-label" for="role-location">LOCATION</label><input id="role-location" class="form-input" maxlength="100" placeholder="e.g. Bengaluru · Hybrid"><label class="field-label" for="application-status">STATUS</label><select id="application-status" class="form-input"><option>Wishlist</option><option>Applied</option><option>Interview</option><option>Offer</option><option>Rejected</option></select><button class="button button-primary button-wide modal-submit" type="submit">Save opportunity <span>→</span></button></form></dialog>
+  <script src="/app.js" defer></script>
+</body>
+</html>
